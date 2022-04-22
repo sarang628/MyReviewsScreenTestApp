@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyReviewsScreenTestApp.iml" filepath="$PROJECT_DIR$/.idea/modules/MyReviewsScreenTestApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyReviewsScreenTestApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyReviewsScreenTestApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-576218598/MyReviewsScreenTestApp.screen_myreviews.iml" filepath="$PROJECT_DIR$/.idea/modules/-576218598/MyReviewsScreenTestApp.screen_myreviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/108622984/MyReviewsScreenTestApp.torang_core.iml" filepath="$PROJECT_DIR$/.idea/modules/108622984/MyReviewsScreenTestApp.torang_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-317353581/MyReviewsScreenTestApp.torangimageloader.iml" filepath="$PROJECT_DIR$/.idea/modules/-317353581/MyReviewsScreenTestApp.torangimageloader.iml" />
+    </modules>
+  </component>
+</project>

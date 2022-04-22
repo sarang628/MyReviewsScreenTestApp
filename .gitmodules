@@ -1,0 +1,3 @@
+[submodule "MyReviews"]
+	path = MyReviews
+	url = https://github.com/sarang628/MyReviews.git
