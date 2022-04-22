@@ -1,3 +1,6 @@
 [submodule "MyReviews"]
 	path = MyReviews
 	url = https://github.com/sarang628/MyReviews.git
+[submodule "TorangCore"]
+	path = TorangCore
+	url = https://github.com/sarang628/TorangCore
