@@ -4,3 +4,6 @@
 [submodule "TorangCore"]
 	path = TorangCore
 	url = https://github.com/sarang628/TorangCore
+[submodule "TorangImageLoader"]
+	path = TorangImageLoader
+	url = https://github.com/sarang628/TorangImageLoader

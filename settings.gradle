@@ -2,10 +2,10 @@ rootProject.name = "MyReviewsScreenTestApp"
 include ':app'
 
 include ':screen_myreviews'
-project(':screen_myreviews').projectDir = new File('../../../Screens/MyReviews/screen_myreviews')
+project(':screen_myreviews').projectDir = new File('./MyReviews')
 
 include ':torangimageloader'
 project(':torangimageloader').projectDir = new File('../../../Utils/TorangImageLoader/torangimageloader')
 
 include ':torang_core'
-project(':torang_core').projectDir = new File('../../../Core/TorangCore/torang_core')
+project(':torang_core').projectDir = new File('.TorangCore')
