@@ -5,7 +5,7 @@ include ':screen_myreviews'
 project(':screen_myreviews').projectDir = new File('./MyReviews')
 
 include ':torangimageloader'
-project(':torangimageloader').projectDir = new File('../../../Utils/TorangImageLoader/torangimageloader')
+project(':torangimageloader').projectDir = new File('./TorangImageLoader/torangimageloader')
 
 include ':torang_core'
-project(':torang_core').projectDir = new File('.TorangCore')
+project(':torang_core').projectDir = new File('./TorangCore/torang_core')

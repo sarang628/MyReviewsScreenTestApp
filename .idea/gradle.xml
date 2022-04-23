@@ -8,10 +8,10 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../../Core/TorangCore/torang_core" />
-            <option value="$PROJECT_DIR$/../../../Screens/MyReviews/screen_myreviews" />
-            <option value="$PROJECT_DIR$/../../../Utils/TorangImageLoader/torangimageloader" />
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MyReviews" />
+            <option value="$PROJECT_DIR$/TorangCore/torang_core" />
+            <option value="$PROJECT_DIR$/TorangImageLoader/torangimageloader" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
