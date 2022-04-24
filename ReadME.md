@@ -19,3 +19,7 @@
 - develop
   
 - validation & verification
+
+
+## Video
+https://youtube.com/shorts/oavfy-haxTk?feature=share
