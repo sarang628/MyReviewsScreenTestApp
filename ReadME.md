@@ -5,8 +5,8 @@
 - torangimageloader (Common image loading library)
 
 ## Screen(UILayer) deveop process
-- analysis
-  proposal, design guide
+- analysis 
+  - proposal, design guide
 - architecture
   - Apply common UI layer architecture
     - (Name)Fragment(or Activity)

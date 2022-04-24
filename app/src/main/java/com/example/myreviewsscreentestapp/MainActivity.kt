@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        intent.putExtra("restaurantId", 4)
+        intent.putExtra("restaurantId", 3)
     }
 }
