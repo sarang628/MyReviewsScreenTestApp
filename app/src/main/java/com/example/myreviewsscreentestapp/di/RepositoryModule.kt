@@ -6,7 +6,6 @@ import com.example.torang_core.data.data.MyReview
 import com.example.torang_core.data.data.ReviewAndImage
 import com.example.torang_core.data.model.LoggedInUserData
 import com.example.torang_core.data.model.User
-import com.example.torang_core.data.uistate.MyReviewItemUiState
 import com.example.torang_core.repository.LoginRepository
 import com.example.torang_core.repository.MyReviewsRepository
 import dagger.Binds
@@ -37,10 +36,6 @@ class TestMyReviewsRepository @Inject constructor() : MyReviewsRepository {
 
     override fun getMyReviews1(restaurantId: Int): LiveData<List<ReviewAndImage>> {
         return MutableLiveData(ArrayList())
-    }
-
-    override fun getMyReviews2(restaurantId: Int): Flow<List<MyReviewItemUiState>> {
-        return MutableStateFlow(ArrayList())
     }
 
     override suspend fun getMyReviews3(restaurantId: Int): List<MyReview> {

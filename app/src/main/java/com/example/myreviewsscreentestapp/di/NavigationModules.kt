@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.fragment.app.FragmentManager
 import com.example.torang_core.navigation.LoginNavigation
 import com.example.torang_core.navigation.WriteReviewNavigation
+import com.example.torang_core.util.Logger
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -23,7 +24,7 @@ abstract class FindRestaurantModule {
 // 테스트 리뷰 작성 이동 내비게이션
 class TestWriteReviewNavigation @Inject constructor() : WriteReviewNavigation {
     override fun go(context: Context, reviewId: Int) {
-
+        Logger.d("")
     }
 }
 
