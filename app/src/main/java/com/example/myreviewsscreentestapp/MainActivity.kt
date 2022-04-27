@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragment, MyReviewsFragment().apply {
                 arguments = Bundle().apply {
-                    putInt("restaurantId", 4)
+                    putInt("restaurantId", 470)
                 }
             })
             .commit()

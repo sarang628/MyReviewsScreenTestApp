@@ -4,7 +4,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.torang_core.data.data.MyReview
 import com.example.torang_core.data.data.ReviewAndImage
+import com.example.torang_core.data.model.LoggedInUserData
+import com.example.torang_core.data.model.User
 import com.example.torang_core.data.uistate.MyReviewItemUiState
+import com.example.torang_core.repository.LoginRepository
 import com.example.torang_core.repository.MyReviewsRepository
 import dagger.Binds
 import dagger.Module
@@ -41,6 +44,39 @@ class TestMyReviewsRepository @Inject constructor() : MyReviewsRepository {
     }
 
     override suspend fun getMyReviews3(restaurantId: Int): List<MyReview> {
-        return ArrayList()
+        return ArrayList<MyReview>().apply {
+            add(MyReview(1, "1", 3.0f, "zz", "2020"))
+        }
     }
+}
+
+@Module
+@InstallIn(SingletonComponent::class)
+abstract class LoginRepositoryModule {
+    @Binds
+    abstract fun provideLoginRepository(loginRepositoryImpl: TestLoginRepository): LoginRepository
+}
+
+@Singleton
+class TestLoginRepository @Inject constructor() : LoginRepository {
+    override suspend fun isLogin(): Boolean {
+        return false
+    }
+
+    override suspend fun facebookLogin(token: String): User? {
+        TODO("Not yet implemented")
+    }
+
+    override fun isLoginFlow(): Flow<Int> {
+        return MutableStateFlow(44)
+    }
+
+    override fun getLoginUser(): LiveData<LoggedInUserData?> {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun setLoggedInUser(loggedInUserData: LoggedInUserData) {
+        TODO("Not yet implemented")
+    }
+
 }

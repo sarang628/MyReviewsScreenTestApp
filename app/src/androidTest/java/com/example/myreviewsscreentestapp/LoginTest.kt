@@ -33,7 +33,7 @@ class LoginTest {
         runBlocking {
             loggedInUserDao.insert(
                 LoggedInUserData(
-                    userId = 4
+                    userId = 44
                 )
             )
         }
